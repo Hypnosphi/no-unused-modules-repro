@@ -1,0 +1,16 @@
+{
+  "name": "no-unused-modules-repro",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:Hypnosphi/no-unused-modules-repro.git",
+  "author": "Filipp Riabchun <filipp.riabchun@jetbrains.com>",
+  "license": "MIT",
+  "scripts": {
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "babel-eslint": "^10.0.3",
+    "eslint": "^6.6.0",
+    "eslint-plugin-import": "^2.18.2"
+  }
+}
